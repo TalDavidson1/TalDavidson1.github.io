@@ -1,11 +1,39 @@
-<html lang="en">
+<!DOCTYPE html>
+<!-- CSS Stylesheets with Relative Paths -->
+<html lang="en-us">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>CSS Stylesheets with Relative Paths</title>
+
+  <!-- This line is money! It points your HTML to the CSS file. -->
+  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
-    
+
+  <header>
+    <h1>Student Bio</h1>
+  </header>
+
+  <main class="container">
+    <section id="main-bio">
+      <section id="figure">
+        <h2 id="bio-name">Tal Davidson</h2>
+        <img id="bio-image" src="media/suit_selfie" alt="Tal Davidson">
+      </section>
+      <p>your bio here</p>
+    </section>
+
+    <aside id="Get in touch!">
+      <h2>Contact Info</h2>
+      <ul>
+        <li><strong>Email:</strong> <a href="#">tdmarketing1@hotmail.com</a></li>
+        <li><strong>Github:</strong> <a href="#">github.com/TalDavidson1</a></li>
+      </ul>
+    </aside>
+  </main>
+
 </body>
+
 </html>
